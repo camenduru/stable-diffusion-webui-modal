@@ -6,4 +6,4 @@
 
 | Colab | Info
 | --- | --- |
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/stable-diffusion-webui-modal/blob/main/stable_diffusion_webui_modal.ipynb) | stable_diffusion_webui_modal
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/webui-modal/blob/main/webui_modal.ipynb) | webui_modal (T4)

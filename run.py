@@ -6,7 +6,7 @@ volume = modal.NetworkFileSystem.new().persisted("stable-diffusion-webui")
 
 @stub.function(
     modal.Image.from_dockerhub("python:3.10")
-    # modal.Image.from_dockerhub("nvidia/cuda:12.2.0-base-ubuntu22.04") # Modal Problem
+    # modal.Image.from_dockerhub("nvidia/cuda:12.2.0-base-ubuntu22.04") # modal step 2 needs python lol
     .run_commands(
         """
         apt-get update -y && 

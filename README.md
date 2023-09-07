@@ -9,4 +9,9 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/stable-diffusion-webui-modal/blob/main/stable_diffusion_webui_modal.ipynb) | stable_diffusion_webui_modal (T4)
 
 ## Tutorial
+
+After running the Colab cell, you can `disconnect and delete runtime`
+
+![image](https://github.com/camenduru/stable-diffusion-webui-modal/assets/54370274/dfc0e74f-53ed-437a-9126-8ceca1e218fa)
+
 ![image](https://github.com/camenduru/webui-modal/assets/54370274/23b55e99-9762-4fe8-8b5f-08b3ee6fd7e2)

@@ -21,14 +21,14 @@ volume = modal.NetworkFileSystem.new().persisted("stable-diffusion-webui")
         sed -i -e 's/    start()/    #start()/g' /content/stable-diffusion-webui/launch.py && \
         cd /content/stable-diffusion-webui && \
         python launch.py --skip-torch-cuda-test && \
-        git reset --hard && \
-        aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/counterfeit-xl/resolve/main/counterfeitxl_v10.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o counterfeitxl_v10.safetensors"
+        git reset --hard"
     ),
     network_file_systems={"/content/stable-diffusion-webui": volume},
     gpu="T4",
     timeout=60000,
 )
 async def run():
+    os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/counterfeit-xl/resolve/main/counterfeitxl_v10.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o counterfeitxl_v10.safetensors")
     os.system(f"cd /content/stable-diffusion-webui && python launch.py --skip-prepare-environment --cors-allow-origins=* --xformers --theme dark --gradio-queue")
 
 @stub.local_entrypoint()

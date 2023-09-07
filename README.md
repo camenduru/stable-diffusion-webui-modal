@@ -10,6 +10,8 @@
 
 ## Tutorial
 
+First set your `--token-id TOKEN-ID and --token-secret TOKEN-SECRET`
+
 After running the Colab cell, you can `disconnect and delete runtime`
 
 ![image](https://github.com/camenduru/stable-diffusion-webui-modal/assets/54370274/dfc0e74f-53ed-437a-9126-8ceca1e218fa)

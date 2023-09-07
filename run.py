@@ -14,7 +14,7 @@ volume = modal.NetworkFileSystem.new().persisted("stable-diffusion-webui")
     ),
     network_file_systems={"/content/stable-diffusion-webui": volume},
     gpu="T4",
-    timeout=6000,
+    timeout=60000,
 )
 async def run():
     os.system(f"git clone -b v2.6 https://github.com/camenduru/stable-diffusion-webui /content/stable-diffusion-webui")

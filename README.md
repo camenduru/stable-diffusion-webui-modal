@@ -10,6 +10,10 @@
 
 ## Tutorial
 
+After running the Colab cell, you can `disconnect and delete runtime`
+
+![image](https://github.com/camenduru/stable-diffusion-webui-modal/assets/54370274/dfc0e74f-53ed-437a-9126-8ceca1e218fa)
+
 The WebUI URL will appear in your log.
 
 ![image](https://github.com/camenduru/webui-modal/assets/54370274/23b55e99-9762-4fe8-8b5f-08b3ee6fd7e2)

@@ -25,7 +25,7 @@ volume = modal.NetworkFileSystem.new().persisted("stable-diffusion-webui")
 async def run():
     os.system(f"git clone -b v2.6 https://github.com/camenduru/stable-diffusion-webui /content/stable-diffusion-webui")
     os.chdir(f"/content/stable-diffusion-webui")
-    os.system(f"rm -rf /content/stable-diffusion-webui/repositories")
+    # os.system(f"rm -rf /content/stable-diffusion-webui/repositories")
     os.system(f"git reset --hard")
     os.system(f"aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/counterfeit-xl/resolve/main/counterfeitxl_v10.safetensors -d /content/stable-diffusion-webui/models/Stable-diffusion -o counterfeitxl_v10.safetensors")
     os.system(f"python launch.py --cors-allow-origins=* --xformers --theme dark --gradio-queue")

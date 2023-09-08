@@ -18,6 +18,8 @@ https://arxiv.org/abs/2112.10752
 
 First set your `--token-id TOKEN-ID and --token-secret TOKEN-SECRET` get the tokens from https://modal.com/settings/tokens
 
+![Screenshot 2023-09-08 210235](https://github.com/camenduru/stable-diffusion-webui-modal/assets/54370274/c5b3236c-61a2-457d-8155-19367f48b765)
+
 After running the Colab cell, you can `disconnect and delete runtime`
 
 ![image](https://github.com/camenduru/stable-diffusion-webui-modal/assets/54370274/dfc0e74f-53ed-437a-9126-8ceca1e218fa)

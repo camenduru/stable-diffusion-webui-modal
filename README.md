@@ -11,6 +11,9 @@
 ## Main Repo
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
+## Paper
+https://arxiv.org/abs/2112.10752
+
 ## Tutorial
 
 First set your `--token-id TOKEN-ID and --token-secret TOKEN-SECRET`

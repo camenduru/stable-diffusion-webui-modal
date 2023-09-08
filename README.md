@@ -16,7 +16,7 @@ https://arxiv.org/abs/2112.10752
 
 ## Tutorial
 
-First set your `--token-id TOKEN-ID and --token-secret TOKEN-SECRET`
+First set your `--token-id TOKEN-ID and --token-secret TOKEN-SECRET` get the tokens from https://modal.com/settings/tokens
 
 After running the Colab cell, you can `disconnect and delete runtime`
 

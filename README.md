@@ -8,6 +8,9 @@
 | --- | --- |
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/stable-diffusion-webui-modal/blob/main/stable_diffusion_webui_modal.ipynb) | stable_diffusion_webui_modal (T4)
 
+## Main Repo
+https://github.com/AUTOMATIC1111/stable-diffusion-webui
+
 ## Tutorial
 
 First set your `--token-id TOKEN-ID and --token-secret TOKEN-SECRET`
